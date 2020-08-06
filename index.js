@@ -59,4 +59,4 @@ function rgbToHex(r, g, b) {
   return '#' + hexer(r) + hexer(g) + hexer(b);
 }
 
-module.exports = Themy;
+module.exports.themy = Themy;
