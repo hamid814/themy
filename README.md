@@ -52,8 +52,8 @@ const theme = new Themy(themes, options)
 const options = {
   acitve: 'theme1', // active theme at the start of app
   prefix: 'site', // classname prefix for classes
-  showPanel: true // wether show a box to change theme or not
-  utils: true // to add utility classes or not
+  showPanel: true, // wether show a box to change theme or not
+  utils: true, // to add utility classes or not
 }
 ```
 
