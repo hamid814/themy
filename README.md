@@ -24,7 +24,7 @@ const themy = require('themy');
 
 #### create themes
 
-```
+```js
 const theme1 = {
  primary: 'red',
  secondary: 'rgb(23, 176, 235)'
@@ -38,7 +38,7 @@ const theme2 = {
 
 #### initialize
 
-```
+```js
 const themes = [theme1, theme2]
 
 const options = {} // unforced
@@ -48,7 +48,7 @@ const theme = new Themy(themes, options)
 
 #### Options
 
-```
+```js
 const options = {
   acitve: 'theme1', // active theme at the start of app
   prefix: 'site', // classname prefix for classes
@@ -59,7 +59,7 @@ const options = {
 
 #### your HTML
 
-```
+```html
 <div class='primary'>Some Text</div>
 
 <div class='bg-primary'>Some Text</div>
