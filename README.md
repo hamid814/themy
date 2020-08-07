@@ -14,7 +14,7 @@ npm i themy
 
 #### import
 
-```
+```js
 /* es6 */
 import themy from 'themy';
 
