@@ -26,24 +26,24 @@ const themy = require('themy');
 
 ```js
 const theme1 = {
- primary: 'red',
- secondary: 'rgb(23, 176, 235)'
-}
+  primary: 'red',
+  secondary: 'rgb(23, 176, 235)',
+};
 
 const theme2 = {
   primary: '#66cc99',
-  secondary: '#cc9966'
-}
+  secondary: '#cc9966',
+};
 ```
 
 #### initialize
 
 ```js
-const themes = [theme1, theme2]
+const themes = { theme1, theme2 };
 
-const options = {} // unforced
+const options = {}; // Not required
 
-const theme = new Themy(themes, options)
+const theme = new Themy(themes, options);
 ```
 
 #### Options
@@ -54,22 +54,24 @@ const options = {
   prefix: 'site', // classname prefix for classes
   showPanel: true, // wether show a box to change theme or not
   utils: true, // to add utility classes or not
-}
+};
 ```
 
 #### your HTML
 
-```html
-<div class='primary'>Some Text</div>
+you just need to add classes
 
-<div class='bg-primary'>Some Text</div>
+```html
+<div class="text-primary">Some Text</div>
+
+<div class="bg-primary">Some Text</div>
 ```
 
 ### table of classes
 
 | classname      | description                 |
 | -------------- | --------------------------- |
-| primary        | text color primary          |
+| text-primary   | text color primary          |
 | bg-primary     | background color of primary |
 | border-primary | border color of primary     |
 
