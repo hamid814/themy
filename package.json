@@ -20,9 +20,7 @@
     "url": "https://github.com/hamid814/themy/issues"
   },
   "homepage": "https://github.com/hamid814/themy#readme",
-  "dependencies": {
-    "axios": "^0.19.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "parcel": "^1.12.4"
   }
