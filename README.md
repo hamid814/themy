@@ -4,7 +4,7 @@ lightwaighy library to create and test themes and color palettes
 
 ## Installation
 
-Use the [npm](https://npmjs.com) to install Themy.
+Use the [npm](https://npmjs.com) to install themy.
 
 ```bash
 npm i themy
@@ -43,7 +43,7 @@ const themes = { theme1, theme2 };
 
 const options = {}; // Not required
 
-const theme = new Themy(themes, options);
+const theme = new themy(themes, options);
 
 // change theme
 theme.setTheme('theme2');
@@ -77,7 +77,7 @@ valid options:
 | option name             | valid values        | description                                    | default     |
 | ----------------------- | ------------------- | ---------------------------------------------- | ----------- |
 | active                  | name of your themes | active theme at the start of app               | first theme |
-| debug                   | boolean             | show errors in the console                     | false       |
+| debug                   | boolean             | to show errors in the console                  | false       |
 | utils                   | boolean             | add utility classes like: 'm-1' = margin: 1em  | false       |
 | transition              | boolean             | add transition time to make color changes soft | true        |
 | showPanel               | boolean             | to show a panel of buttons to change tehemes   | false       |
