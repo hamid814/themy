@@ -57,6 +57,10 @@ const options = {
   showPanel: true, // wether show a box to change theme or not
   utils: true, // to add utility classes or not
 };
+
+// then add it as second argument
+
+const theme = new themy(themes, options);
 ```
 
 valid options:
