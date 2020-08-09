@@ -64,6 +64,8 @@ valid options:
 | option name             | valid values        | description                                  | default     |
 | ----------------------- | ------------------- | -------------------------------------------- | ----------- |
 | active                  | name of your themes | active theme at the start of app             | first theme |
+| debug                   | bollean             | show errors in the console                   | false       |
+| utils                   | bollean             | add utility classes like: 'm-1' = margin 1em | false       |
 | prefix                  | string              | any name to add before calssnames            | none        |
 | showPanel               | bollean             | to show a panel of buttons to change tehemes | false       |
 | panelOptions            | object              | cofigure panel settings                      | {}          |
