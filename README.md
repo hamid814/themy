@@ -61,9 +61,15 @@ const options = {
 
 valid options:
 
-| option name | valid values        | description                      |
-| ----------- | ------------------- | -------------------------------- |
-| active      | name of your themes | active theme at the start of app |
+| option name             | valid values        | description                                  | default     |
+| ----------------------- | ------------------- | -------------------------------------------- | ----------- |
+| active                  | name of your themes | active theme at the start of app             | first theme |
+| prefix                  | string              | any name to add before calssnames            | none        |
+| showPanel               | bollean             | to show a panel of buttons to change tehemes | false       |
+| panelOptions            | object              | cofigure panel settings                      | {}          |
+| panelOptions.position   | 'top-right' and ... | position of panel on the screen              | 'top-right' |
+| panelOptions.background | string ( color )    | background color of panel on the screen      | '#ccc'      |
+| panelOptions.direction  | 'row', 'column'     | direction of buttons in panel                | 'column'    |
 
 #### your HTML
 
