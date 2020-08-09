@@ -48,6 +48,8 @@ const theme = new Themy(themes, options);
 
 #### Options
 
+how to create options:
+
 ```js
 const options = {
   acitve: 'theme1', // active theme at the start of app
@@ -56,6 +58,12 @@ const options = {
   utils: true, // to add utility classes or not
 };
 ```
+
+valid options:
+
+| option name | valid values        | description                      |
+| ----------- | ------------------- | -------------------------------- |
+| active      | name of your themes | active theme at the start of app |
 
 #### your HTML
 
