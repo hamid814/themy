@@ -25,12 +25,12 @@ const themy = require('themy');
 #### create themes
 
 ```js
-const theme1 = {
+const coolTheme = {
   primary: 'red',
   secondary: 'rgb(23, 176, 235)',
 };
 
-const theme2 = {
+const awesomeTheme = {
   primary: '#66cc99',
   secondary: '#cc9966',
 };
@@ -39,20 +39,32 @@ const theme2 = {
 #### initialize
 
 ```js
-const themes = { theme1, theme2 };
+const themes = { coolTheme, awesomeTheme };
 
-const options = {}; // Not required
-
-const theme = new themy(themes, options);
+const theme = new themy(themes);
 
 // change theme
-theme.setTheme('theme2');
+theme.setTheme('awesomeTheme');
 ```
 
 #### change the theme
 
 ```js
-theme.setTheme('theme2');
+theme.setTheme('awesomeTheme');
+```
+
+#### add a new theme
+
+```js
+const themeName = {
+  primary: '#9c1de7',
+  secodary: '#9c1de7',
+};
+
+theme.addTheme({ themeName });
+
+// set the theme as active theme
+theme.setTheme('themeName');
 ```
 
 #### Options
@@ -67,8 +79,7 @@ const options = {
   utils: true, // to add utility classes or not
 };
 
-// then add it as second argument
-
+// then add options as second argument
 const theme = new themy(themes, options);
 ```
 
