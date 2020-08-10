@@ -113,10 +113,14 @@ Valid options:
 You just need to add classes
 
 ```html
-<div class="text-primary">Some Text</div>
+<div class="text-primary">Some text with primary color</div>
 
-<div class="bg-primary">Some Text</div>
+<div class="bg-primary">Some text with primary background</div>
 ```
+
+### Add shades of colors
+
+Descripition is not ready
 
 ### Table of classes
 
@@ -129,10 +133,6 @@ You just need to add classes
 | text-primary-l(1-9) | `<div class='text-primary-l6'>`    | 60% lighter primary         |
 | bg-primary          | `<div class='bg-primary'>`         | background color of primary |
 | border-primary      | `<div class='border-primary'>`     | border color of primary     |
-
-### Add shades of colors
-
-Descripition is not ready
 
 ## Licens
 
