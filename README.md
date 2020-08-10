@@ -1,6 +1,6 @@
 # Themy
 
-lightwaighy library to create and test themes and color palettes
+Lightwaighy library to create, test and toggle themes and color palettes
 
 ## Installation
 
@@ -26,7 +26,7 @@ const themy = require('themy');
 
 ```js
 const coolTheme = {
-  primary: 'red',
+  primary: '#f00',
   secondary: 'rgb(23, 176, 235)',
 };
 
@@ -36,24 +36,24 @@ const awesomeTheme = {
 };
 ```
 
-#### initialize
+#### Initialize
 
 ```js
 const themes = { coolTheme, awesomeTheme };
 
 const theme = new themy(themes);
 
-// change theme
+// Change theme
 theme.setTheme('awesomeTheme');
 ```
 
-#### change the theme
+#### Change the theme
 
 ```js
 theme.setTheme('awesomeTheme');
 ```
 
-#### add a new theme
+#### Add a new theme
 
 ```js
 const themeName = {
@@ -63,27 +63,27 @@ const themeName = {
 
 theme.addTheme({ themeName });
 
-// set the theme as active theme
+// Set the theme as active theme
 theme.setTheme('themeName');
 ```
 
 #### Options
 
-how to create options:
+Create and add options like this:
 
 ```js
 const options = {
-  acitve: 'theme1', // active theme at the start of app
-  prefix: 'site', // classname prefix for classes
-  showPanel: true, // wether show a box to change theme or not
-  utils: true, // to add utility classes or not
+  acitve: 'theme1', // Active theme at the start of app
+  prefix: 'site', // Classname prefix for classes
+  showPanel: true, // Wether show a box to change theme or not
+  utils: true, // To add utility classes or not
 };
 
-// then add options as second argument
+// Then add options as second argument
 const theme = new themy(themes, options);
 ```
 
-valid options:
+Valid options:
 
 | option name             | valid values        | description                                    | default     |
 | ----------------------- | ------------------- | ---------------------------------------------- | ----------- |
@@ -98,9 +98,9 @@ valid options:
 | panelOptions.background | string ( color )    | background color of panel on the screen        | '#ccc'      |
 | panelOptions.direction  | 'row', 'column'     | direction of buttons in panel                  | 'column'    |
 
-#### your HTML
+#### Your HTML
 
-you just need to add classes
+You just need to add classes
 
 ```html
 <div class="text-primary">Some Text</div>
@@ -108,7 +108,7 @@ you just need to add classes
 <div class="bg-primary">Some Text</div>
 ```
 
-### table of classes
+### Table of classes
 
 | classname      | description                 |
 | -------------- | --------------------------- |
