@@ -112,7 +112,7 @@ You just need to add classes
 
 | classname      | example                      | description                 |
 | -------------- | ---------------------------- | --------------------------- |
-| text-primary   | <div class='text-primary'>   | text color primary          |
+| text-primary   | `<div class='text-primary'>` | text color primary          |
 | bg-primary     | <div class='bg-primary'>     | background color of primary |
 | border-primary | <div class='border-primary'> | border color of primary     |
 
