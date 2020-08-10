@@ -22,7 +22,7 @@ import themy from 'themy';
 const themy = require('themy');
 ```
 
-#### create themes
+#### Create themes
 
 ```js
 const coolTheme = {
@@ -110,11 +110,11 @@ You just need to add classes
 
 ### Table of classes
 
-| classname      | description                 |
-| -------------- | --------------------------- |
-| text-primary   | text color primary          |
-| bg-primary     | background color of primary |
-| border-primary | border color of primary     |
+| classname      | example                      | description                 |
+| -------------- | ---------------------------- | --------------------------- |
+| text-primary   | <div class='text-primary'>   | text color primary          |
+| bg-primary     | <div class='bg-primary'>     | background color of primary |
+| border-primary | <div class='border-primary'> | border color of primary     |
 
 ## Licens
 
