@@ -67,6 +67,16 @@ theme.addTheme({ themeName });
 theme.setTheme('themeName');
 ```
 
+#### Methods
+
+```js
+// get acitve theme
+theme.getTheme(); // themeName
+
+// get an array of themes
+theme.getThemes(); // ['coolTheme', 'awesomeTheme', 'themeName']
+```
+
 #### Options
 
 Create and add options like this:
@@ -98,7 +108,7 @@ Valid options:
 | panelOptions.background | string ( color )    | background color of panel on the screen        | '#ccc'      |
 | panelOptions.direction  | 'row', 'column'     | direction of buttons in panel                  | 'column'    |
 
-#### Your HTML
+## Your HTML
 
 You just need to add classes
 
@@ -110,11 +120,19 @@ You just need to add classes
 
 ### Table of classes
 
-| classname      | example                        | description                 |
-| -------------- | ------------------------------ | --------------------------- |
-| text-primary   | `<div class='text-primary'>`   | text color primary          |
-| bg-primary     | `<div class='bg-primary'>`     | background color of primary |
-| border-primary | `<div class='border-primary'>` | border color of primary     |
+| classname           | example                            | description                 |
+| ------------------- | ---------------------------------- | --------------------------- |
+| text-primary        | `<div class='text-primary'>`       | text color primary          |
+| text-primary-dark   | `<div class='text-primary-dark'>`  | 30% darker primary          |
+| text-primary-light  | `<div class='text-primary-light'>` | 30% lighter primary         |
+| text-primary-d(1-9) | `<div class='text-primary-d4'>`    | 40% darker primary          |
+| text-primary-l(1-9) | `<div class='text-primary-l6'>`    | 60% lighter primary         |
+| bg-primary          | `<div class='bg-primary'>`         | background color of primary |
+| border-primary      | `<div class='border-primary'>`     | border color of primary     |
+
+### Add shades of colors
+
+Descripition is not ready
 
 ## Licens
 
