@@ -103,6 +103,7 @@ Valid options:
 | transition              | boolean or number   | add transition time to make color changes soft | 0.3 (s)     |
 | showPanel               | boolean             | to show a panel of buttons to change tehemes   | false       |
 | prefix                  | string              | any name to add before calssnames              | none        |
+| shades                  | array of numbers    | you can choose just the shades you want        | [1-9]       |
 | panelOptions            | object              | cofigure panel settings                        | {}          |
 | panelOptions.position   | 'top-right' and ... | position of panel on the screen                | 'top-right' |
 | panelOptions.background | string ( color )    | background color of panel on the screen        | '#ccc'      |
