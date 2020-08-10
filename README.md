@@ -100,7 +100,7 @@ Valid options:
 | active                  | name of your themes | active theme at the start of app               | first theme |
 | debug                   | boolean             | to show errors in the console                  | false       |
 | utils                   | boolean             | add utility classes like: 'm-1' = margin: 1em  | false       |
-| transition              | boolean             | add transition time to make color changes soft | true        |
+| transition              | boolean or number   | add transition time to make color changes soft | 0.3 (s)     |
 | showPanel               | boolean             | to show a panel of buttons to change tehemes   | false       |
 | prefix                  | string              | any name to add before calssnames              | none        |
 | panelOptions            | object              | cofigure panel settings                        | {}          |
