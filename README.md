@@ -135,6 +135,10 @@ Descripition is not ready
 | bg-primary          | `<div class='bg-primary'>`         | background color of primary |
 | border-primary      | `<div class='border-primary'>`     | border color of primary     |
 
+### Contact me
+
+My Email: hamid331994@gmail.com
+
 ## Licens
 
 MIT
