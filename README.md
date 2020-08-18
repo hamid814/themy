@@ -2,6 +2,10 @@
 
 Lightwaighy library to create, test and toggle themes and color palettes
 
+## Documentation
+
+full documentation is [here](https://hamid814.github.io/themy)
+
 ## Installation
 
 Use the [npm](https://npmjs.com) to install themy.
